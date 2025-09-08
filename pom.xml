@@ -20,6 +20,10 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+<properties>
+    <sonar.login>squ_8a0f708a670e64fb4ef9dee40e733499e3477d48</sonar.login>
+</properties>
+
 
 </project>
 
