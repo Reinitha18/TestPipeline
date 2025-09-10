@@ -23,6 +23,16 @@
 <properties>
     <sonar.login>squ_8a0f708a670e64fb4ef9dee40e733499e3477d48</sonar.login>
 </properties>
+<distributionManagement>
+  <repository>
+    <id>nexus-releases</id>
+    <url>http://localhost:8081/#admin/repository/repositories:maven-releases</url>
+  </repository>
+  <snapshotRepository>
+    <id>nexus-snapshots</id>
+    <url>http://localhost:8081/#admin/repository/repositories:maven-snapshots</url>
+  </snapshotRepository>
+</distributionManagement>
 
 
 </project>
